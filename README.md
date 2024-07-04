@@ -1,5 +1,13 @@
 ## **Semantic Segmentation Code for Simulated Point Annotation**
-To overcome the challenge of limited point annotation
+In this Repo I overcome the challenge of limited point annotation by:
+
+* Using `pandas` and `OpenCV` to prepare the satellite images and masks from the `DeepGlobe` dataset, ensuring they are appropriately formatted for the model.
+
+* Setting up the `DeepLabV3Plus` model with ResNet 50 using the `segmentation_models_pytorch` library and explore its performance.
+
+* Using NumPy to simulate `random point labels` on segmentation masks to handle partially labeled data effectively.
+
+* Varying `sampling ratio` and `image resolution` to study their effects on the model's `Intersection over Union (IoU)` performance.
 
 <p align="center" width="75%">
     <img width="75%" src="https://github.com/Cheeetah97/SemanticSegmentation-PointLabelling-DeepLabV3-PCrossEntropy-/assets/62606459/0428387b-a57a-40a0-acd6-a142e5ff77e7"> 
