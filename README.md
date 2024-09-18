@@ -1,4 +1,4 @@
-## **Semantic Segmentation Code for Simulated Point Annotation**
+## **Self - Supervised Learning for Semantic Segmentation using Limited Point Annotation**
 In this Repo I overcome the challenge of limited point annotation by:
 
 * Using `pandas` and `OpenCV` to prepare the satellite images and masks from the `DeepGlobe` dataset, ensuring they are appropriately formatted for the model.
