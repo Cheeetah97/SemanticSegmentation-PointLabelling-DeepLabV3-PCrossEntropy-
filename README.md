@@ -1,9 +1,9 @@
-## **Self - Supervised Learning for Semantic Segmentation using Limited Point Annotation**
+## **Semi - Supervised Learning for Semantic Segmentation using Limited Point Annotation**
 In this Repo I overcome the challenge of limited point annotation by:
 
 * Using `pandas` and `OpenCV` to prepare the satellite images and masks from the `DeepGlobe` dataset, ensuring they are appropriately formatted for the model.
 
-* Setting up the `DeepLabV3Plus` model with ResNet 50 using the `segmentation_models_pytorch` library and explore its performance.
+* Setting up the `DeepLabV3Plus` model with `ResNet-50` as the backbone, leveraging `transfer learning` by initializing with `pre-trained ImageNet weights` using the `segmentation_models_pytorch library`.
 
 * Using NumPy to simulate `random point labels` on segmentation masks to handle partially labeled data effectively.
 
